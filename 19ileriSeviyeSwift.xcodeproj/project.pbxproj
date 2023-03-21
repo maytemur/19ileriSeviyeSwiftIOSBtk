@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		3047C59529895BCF00D62405 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3047C59429895BCF00D62405 /* main.swift */; };
+		3058351B298AB49400C8664F /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3058351A298AB49400C8664F /* UserClass.swift */; };
+		3058351D298AB4A200C8664F /* UserStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3058351C298AB4A200C8664F /* UserStruct.swift */; };
+		30858B6C298C55690072FB81 /* ProtocolSinifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30858B6B298C55690072FB81 /* ProtocolSinifi.swift */; };
+		30858B6E298C5A870072FB81 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30858B6D298C5A870072FB81 /* Animal.swift */; };
+		30B2EFED298D3AE400C32B6A /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2EFEC298D3AE400C32B6A /* Closures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		3047C59129895BCF00D62405 /* 19ileriSeviyeSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 19ileriSeviyeSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		3047C59429895BCF00D62405 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3058351A298AB49400C8664F /* UserClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		3058351C298AB4A200C8664F /* UserStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruct.swift; sourceTree = "<group>"; };
+		30858B6B298C55690072FB81 /* ProtocolSinifi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSinifi.swift; sourceTree = "<group>"; };
+		30858B6D298C5A870072FB81 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		30B2EFEC298D3AE400C32B6A /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				3047C59429895BCF00D62405 /* main.swift */,
+				3058351A298AB49400C8664F /* UserClass.swift */,
+				3058351C298AB4A200C8664F /* UserStruct.swift */,
+				30858B6B298C55690072FB81 /* ProtocolSinifi.swift */,
+				30858B6D298C5A870072FB81 /* Animal.swift */,
+				30B2EFEC298D3AE400C32B6A /* Closures.swift */,
 			);
 			path = 19ileriSeviyeSwift;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3058351D298AB4A200C8664F /* UserStruct.swift in Sources */,
 				3047C59529895BCF00D62405 /* main.swift in Sources */,
+				3058351B298AB49400C8664F /* UserClass.swift in Sources */,
+				30858B6C298C55690072FB81 /* ProtocolSinifi.swift in Sources */,
+				30858B6E298C5A870072FB81 /* Animal.swift in Sources */,
+				30B2EFED298D3AE400C32B6A /* Closures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
